@@ -37,7 +37,6 @@ class Output implements Runnable {
                     lock.wait();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
-
                 }
             }
         }
